@@ -1,0 +1,11 @@
+.main-page .phone-number-1::before {
+    content: url("/src/img/icons/phone icon.png");
+}
+
+.main-page .mail::before {
+    content: url("src/img/icons/mail icon.png");
+}
+
+.services-list li::after {
+    content: url("src/img/icons/pointer icon.png");
+}
