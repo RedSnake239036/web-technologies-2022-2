@@ -125,28 +125,28 @@
         &:nth-child(1) {
             right: 230px;
             width: 485px;
-            background-image: url('../../assets/img/hero/column-left.webp');
+            background-image: url('../../assets/img/body/column-left.webp');
             @include heroImageAnimation(firstImage-1, 0px, -1960px);
         }
         
         &:nth-child(2) {
             right: 230px;
             width: 485px;
-            background-image: url('../../assets/img/hero/column-left.webp');
+            background-image: url('../../assets/img/body/column-left.webp');
             @include heroImageAnimation(firstImage-2, 1960px, 0px);
         }
         
         &:nth-child(3) {
             right: 5px;
             width: 293px;
-            background-image: url('../../assets/img/hero/column-right.webp');
+            background-image: url('../../assets/img/body/column-right.webp');
             @include heroImageAnimation(secondImage-1, 0px, 1960px);
         }
         
         &:nth-child(4) {
             right: 5px;
             width: 293px;
-            background-image: url('../../assets/img/hero/column-right.webp');
+            background-image: url('../../assets/img/body/column-right.webp');
             @include heroImageAnimation(secondImage-2, -1960px, 0px);
         }
     }
